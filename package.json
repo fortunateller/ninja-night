@@ -1,0 +1,24 @@
+{
+    "name": "ninja-night",
+    "version": "1.0.0",
+    "description": "《忍者之夜》桌游核心逻辑",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "node server.js",
+        "test": "node test_6.js && node test_7.js",
+        "test:integration": "node test_integration_api_db.js",
+        "test:all": "node test_6.js && node test_7.js && node test_integration_api_db.js",
+        "test6": "node test_6.js",
+        "test7": "node test_7.js"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^16.6.1",
+        "express": "^4.21.2",
+        "mysql2": "^3.14.5"
+    },
+    "devDependencies": {
+        "@ljharb/tsconfig": "^0.3.2"
+    }
+}
