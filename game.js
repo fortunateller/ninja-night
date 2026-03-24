@@ -1188,6 +1188,8 @@ class NinjaGame {
         }
         return array;
     }
+
+    pasd() { }
 }
 
 module.exports = NinjaGame;
